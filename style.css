@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+marquee{
+    position: relative;
+    display: inline-block;
+    font-size: 200px;
+    color: 000000;
+    font-family: 'Poppins', sans-serif;
+    behavior: alternate;
+    width: 100%;
+    margin-top: 100px;
+}
+header{
+    display: inline-block;
+    background-color: grey;
+    width: 100%;
+    height: 160px;
+    vertical-align: middle;
+}
+body {
+    height: 4000px;
+    width: 100%;
+    display: inline-block;
+    margin: 0%;
+}
+div.img-wrapper {
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+}
+img.header-img {
+    height: 100px;
+    vertical-align: 50%;
+}
